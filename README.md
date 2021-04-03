@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1251\cocoartf2577
+{\rtf1\ansi\ansicpg1251\cocoartf2578
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Italic;
 }
 {\colortbl;\red255\green255\blue255;\red7\green68\blue184;\red244\green246\blue249;\red27\green31\blue34;
@@ -24,4 +24,16 @@
 \pard\pardeftab720\partightenfactor0
 \cf5 *\cf4  \uc0\u1042 \u1099 \u1089 \u1086 \u1082 \u1072 \u1103  \u1090 \u1086 \u1095 \u1085 \u1086 \u1089 \u1090 \u1100  \u1087 \u1086 \u1080 \u1089 \u1082 \u1072 \
 \cf5 *\cf4  \uc0\u1042 \u1099 \u1089 \u1086 \u1082 \u1072 \u1103  \u1089 \u1082 \u1086 \u1088 \u1086 \u1089 \u1090 \u1100  \u1087 \u1086 \u1080 \u1089 \u1082 \u1072 \
-\cf5 *\cf4  \uc0\u1053 \u1080 \u1079 \u1082 \u1072 \u1103  \u1094 \u1077 \u1085 \u1072 }
+\cf5 *\cf4  \uc0\u1053 \u1080 \u1079 \u1082 \u1072 \u1103  \u1094 \u1077 \u1085 \u1072 \
+\
+}
+<script src="https://localhost/neuro.sdk.min.js"></script>
+
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
